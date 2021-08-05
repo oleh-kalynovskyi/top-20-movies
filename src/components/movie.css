@@ -1,0 +1,66 @@
+.movie-info {
+    display: flex;
+
+    color: white;
+
+    padding: 30px;
+}
+
+.back {
+    padding: 30px 30px 10px 30px;
+}
+.back-to-main {
+    padding-bottom: 5px;
+
+    border-bottom: 2px solid red;
+
+}
+
+.movie-info-img {
+    min-width: 300px;
+    width: 300px;
+    height: 450px;
+}
+
+.movie-info-about {
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+.movie-info-about-title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0rem;
+}
+
+.movie-info-about-relise span:not(:nth-last-child(1))::after{
+    content: '\2022';
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+.movie-info-about-tagline {
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.movie-info-about-production_companies {
+    margin-top: 20px;
+}
+
+.movie-info-about-production_companies-name:not(:nth-last-child(1))::after{
+    content: ', ';
+    font-size: 1.1em;
+}
+.movie-info-about-production_companies-name:nth-last-child(1)::after{
+    content: ';';
+    font-size: 1.1em;
+}
+
+.movie-info-about-overview, .movie-info-about-production_companies-name {
+    font-size: 1.2rem;
+}
+
+.react-tabs {
+    margin: 30px;
+}

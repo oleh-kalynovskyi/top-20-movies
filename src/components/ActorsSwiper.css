@@ -1,0 +1,29 @@
+
+.ActorsSwiper {
+    margin: 30px;
+    font-size: 1.2rem;
+
+}
+
+.ActorsSwiper-actor-card {
+    width: 150px !important;
+}
+
+.swiper-slide {
+    margin-bottom: 20px;
+}
+.ActorsSwiper-name {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.ActorsSwiper-name span {
+    font-weight: 900;
+}
+.ActorsSwiper-character {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+/* .swiper-button-next, .swiper-button-prev {
+    top: 40% !important;
+} */

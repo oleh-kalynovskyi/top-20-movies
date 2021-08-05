@@ -1,0 +1,21 @@
+.react-tabs__tab-list, .react-tabs__tab, .react-tabs__tab--selected {
+    border-color: unset !important;
+    border: unset !important;
+}
+
+.react-tabs__tab--selected {
+    border-bottom: 3px solid #000 !important;
+}
+
+.SwiperSlide-photo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width:50% !important;
+}
+
+.SwiperSlide-photo-wrapper img {
+    width: 100% !important;
+}
