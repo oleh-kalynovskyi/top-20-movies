@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oleh-kalynovskyi/top-20-movies/static/css/main.8cc1bc58.chunk.css",
-    "main.js": "/oleh-kalynovskyi/top-20-movies/static/js/main.388eba95.chunk.js",
-    "main.js.map": "/oleh-kalynovskyi/top-20-movies/static/js/main.388eba95.chunk.js.map",
-    "runtime-main.js": "/oleh-kalynovskyi/top-20-movies/static/js/runtime-main.397fcf52.js",
-    "runtime-main.js.map": "/oleh-kalynovskyi/top-20-movies/static/js/runtime-main.397fcf52.js.map",
-    "static/css/2.c15fb9a7.chunk.css": "/oleh-kalynovskyi/top-20-movies/static/css/2.c15fb9a7.chunk.css",
-    "static/js/2.e1cd9c3d.chunk.js": "/oleh-kalynovskyi/top-20-movies/static/js/2.e1cd9c3d.chunk.js",
-    "static/js/2.e1cd9c3d.chunk.js.map": "/oleh-kalynovskyi/top-20-movies/static/js/2.e1cd9c3d.chunk.js.map",
-    "index.html": "/oleh-kalynovskyi/top-20-movies/index.html",
-    "static/css/2.c15fb9a7.chunk.css.map": "/oleh-kalynovskyi/top-20-movies/static/css/2.c15fb9a7.chunk.css.map",
-    "static/css/main.8cc1bc58.chunk.css.map": "/oleh-kalynovskyi/top-20-movies/static/css/main.8cc1bc58.chunk.css.map",
-    "static/js/2.e1cd9c3d.chunk.js.LICENSE.txt": "/oleh-kalynovskyi/top-20-movies/static/js/2.e1cd9c3d.chunk.js.LICENSE.txt"
+    "main.css": "/top-20-movies/static/css/main.8cc1bc58.chunk.css",
+    "main.js": "/top-20-movies/static/js/main.388eba95.chunk.js",
+    "main.js.map": "/top-20-movies/static/js/main.388eba95.chunk.js.map",
+    "runtime-main.js": "/top-20-movies/static/js/runtime-main.397fcf52.js",
+    "runtime-main.js.map": "/top-20-movies/static/js/runtime-main.397fcf52.js.map",
+    "static/css/2.c15fb9a7.chunk.css": "/top-20-movies/static/css/2.c15fb9a7.chunk.css",
+    "static/js/2.e1cd9c3d.chunk.js": "/top-20-movies/static/js/2.e1cd9c3d.chunk.js",
+    "static/js/2.e1cd9c3d.chunk.js.map": "/top-20-movies/static/js/2.e1cd9c3d.chunk.js.map",
+    "index.html": "/top-20-movies/index.html",
+    "static/css/2.c15fb9a7.chunk.css.map": "/top-20-movies/static/css/2.c15fb9a7.chunk.css.map",
+    "static/css/main.8cc1bc58.chunk.css.map": "/top-20-movies/static/css/main.8cc1bc58.chunk.css.map",
+    "static/js/2.e1cd9c3d.chunk.js.LICENSE.txt": "/top-20-movies/static/js/2.e1cd9c3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.397fcf52.js",
