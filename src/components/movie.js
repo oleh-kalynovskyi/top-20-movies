@@ -28,7 +28,6 @@ export default function Movie(props) {
             })
         axios.get(`https://api.themoviedb.org/3/movie/${id}/credits?api_key=0354db1c64f94ab103a126e604311fdf&page=1`)
         .then(resp => {
-            console.log(resp.data);
             setActors(resp.data.cast);
         })
         axios.get(`https://api.themoviedb.org/3/movie/${id}/images?api_key=0354db1c64f94ab103a126e604311fdf&page=1`)
@@ -51,9 +50,7 @@ export default function Movie(props) {
         const minutes = movie.runtime % 60;
         return `${hours}h ${minutes}m`;
     }
-
-    console.log((1000000).toLocaleString('us')   );
-
+    
     return (
         <div className='movie-wrapper'>
             { movie ?

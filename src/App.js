@@ -3,21 +3,24 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Main from './components/main';
-import Movie from './components/movie'
+import Movie from './components/movie';
+import Search from './search/search'
+
 
 
 
 function App() {
-
   return (
     <BrowserRouter>
     <div className="App">
       <header className="App-header">
-          <h1 className='App-header-text'>Top 20 movies on TMDB.</h1>
+        <h1 className='App-header-text'>Top 20 movies on TMDB.</h1>
+        <Search/>
       </header>
-      <Switch>
+
+        <Switch>
           <Route exact path='/top-20-movies' component={Main}/>
-          <Route path='/movie/:id' component={Movie}/>
+          <Route path='/top-20-movies/:id' component={Movie}/>
         </Switch>
     </div>
     <footer>

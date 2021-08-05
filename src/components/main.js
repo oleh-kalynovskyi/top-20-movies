@@ -17,12 +17,11 @@ function Main() {
 
   return (
     <div className="main">
-        { movies.map(el => {
+        { movies && movies.map(el => {
             return( 
   
               <div className="movie-item-wrapper" key={el.id}>
-                <Link  className="movie-item-wrapper-a" to={'/movie/' + el.id }>
-
+                <Link  className="movie-item-wrapper-a" to={'/top-20-movies/' + el.id }>
                     <img src={`http://image.tmdb.org/t/p/w500/${el.poster_path}`} alt="" width='250px' />
                     <div className="movie-wrapper-info">
                         <p className='movie-wrapper-info-name'> {el.original_title} </p>
@@ -31,7 +30,6 @@ function Main() {
                     </div>
                 </Link>
               </div>
-  
               
               )
           })
